@@ -1,3 +1,9 @@
+## Cabeçalho:
+### Aluno: Arnaldo B A Junior; 
+### Turma: 2024-1 TADS 2º;
+### Período: 2º Período; e 
+### Disciplina: Programação Orientada a Objetos.
+
 ## Breve Descrição:
 
 Este programa utiliza Orientação a objeto com encapsulamento. 

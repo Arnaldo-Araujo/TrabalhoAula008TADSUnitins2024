@@ -16,46 +16,45 @@ E temos um executavel que foi gerado pelo proprio Visual Code, utilizei ele faci
 
 Para executar utilize o Arquivo App.java para executar o programa, para ver o que ele faz, mas vou explicar cada parte da execução já como exemplo de uso.
   
-  ## Instanciei o GerenciadorDePessoas
+  ### Instanciei o GerenciadorDePessoas
         GerenciadorDePessoas gen = new GerenciadorDePessoas();
-  ## Instanciei a pessoa1
+  ### Instanciei a pessoa1
         Pessoa pessoa1 = new Pessoa();
-  ## Inseri o nome, uma String, através do metodo setNome
+  ### Inseri o nome, uma String, através do metodo setNome
         pessoa1.setNome("Arnaldo de Araujo");
-  ## Inseri o CPF, uma String, através do metodo setCpf
+  ### Inseri o CPF, uma String, através do metodo setCpf
         pessoa1.setCpf("999.090.084-99");
-  ## Inseri a idade através do método setIdade, nesse caso foi utilizado um inteiro.
+  ### Inseri a idade através do método setIdade, nesse caso foi utilizado um inteiro.
         pessoa1.setIdade(43);
-  ## Já com as duas instancias completas
-  ## Nesse momento fazemos o cadastro da pessoa no método CadastrarPessoa, que esta na classe GerenciadorDePessoas       
+  ### Já com as duas instancias completas
+  #### Nesse momento fazemos o cadastro da pessoa no método CadastrarPessoa, que esta na classe GerenciadorDePessoas       
         gen.CadastrarPessoa(pessoa1);
 
-  ## Nessas proximas linhas fiz o mesmo para pessoa2      
+  ### Nessas proximas linhas fiz o mesmo para pessoa2      
         Pessoa pessoa2 = new Pessoa();
         pessoa2.setNome("Ezequiel M de Araujo");
         pessoa2.setCpf("124.235.687-98");
         pessoa2.setIdade(18);
-  ## Bem como cadastrei a pessoa2, que foi para o final da lista de pessoas.
+  ### Bem como cadastrei a pessoa2, que foi para o final da lista de pessoas.
         gen.CadastrarPessoa(pessoa2);
-  ## Aqui imprimi o resultado parcial do que foi feito até agora.
+  ### Aqui imprimi o resultado parcial do que foi feito até agora.
         gen.exibirPessoa();
-  ## Agora vou repetir o metodo de instacial uma pessoa3 neste caso vou atualizar a pessoa completa, mas também poderia fazer outra implementação para atualizar a pessoa.
+  #### Agora vou repetir o metodo de instacial uma pessoa3 neste caso vou atualizar a pessoa completa, mas também poderia fazer outra implementação para atualizar a pessoa.
         Pessoa pessoa3 = new Pessoa();
         pessoa3.setNome("Valentina M de Araujo");
         pessoa3.setCpf("125.123.345-90");
         pessoa3.setIdade(10);
- ## Depois da nova pessoa criada, atualizei a pessoa utilizando o metodo abaixo conforme exemplificado novosDados, subistitui dadosAntigos
+ #### Depois da nova pessoa criada, atualizei a pessoa utilizando o metodo abaixo conforme exemplificado novosDados, subistitui dadosAntigos
         gen.atualizarPessoa(pessoa3, pessoa1); // atualizarPessoa(novosDados, dadosAntigos);
- ## Aqui vou exibir novamente a lista de pessoas para ver que foi totalmente atualizadas
+ ### Aqui vou exibir novamente a lista de pessoas para ver que foi totalmente atualizadas
         gen.exibirPessoa();
 
- ## Sobre a logica do encapsulamento e que foi aplicada
+ ### Sobre a logica do encapsulamento e que foi aplicada
 
- ## Na Classe Pessoa
+ ### Na Classe Pessoa
  Criei os atributos nome e cpf como string com acesso privado, também criei o atributo idade como int (inteiro) também com acesso privado, crie os metodos getters e setters para que pudesse ser modificado dentro da instancia.
- ## Na Classe GerenciadorDePessoas
+ ### Na Classe GerenciadorDePessoas
  Inicialmente crie uma atributo do tipo Lista(List), e instanciei no construtor da classe GerenciadorDePessoas
  Depois crie três metodos
  ### O primeiro método foi CadastrarPessoa
  Foi um metodo sem retorno mas que tinha como função, receber uma objeto do tipo Pessoa e adcionar no atributo da lista de Pessoas.
- 

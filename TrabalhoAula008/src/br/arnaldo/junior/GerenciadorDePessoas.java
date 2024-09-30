@@ -5,7 +5,7 @@ import java.util.List;
 
 import br.arnaldo.junior.model.Pessoa;
 
-public class GerenciadorDePessoas extends Pessoa {
+public class GerenciadorDePessoas {
 
     private List<Pessoa> pessoas;
 
@@ -18,7 +18,6 @@ public class GerenciadorDePessoas extends Pessoa {
     }
 
     public void atualizarPessoa(Pessoa pessoaAtualizada, Pessoa pessoaDesatualizada){
-        pessoas.
         pessoas.remove(pessoaDesatualizada);
         pessoas.add(pessoaAtualizada);        
     }

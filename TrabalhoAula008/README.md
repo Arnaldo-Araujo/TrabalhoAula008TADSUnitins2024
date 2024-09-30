@@ -57,4 +57,5 @@ Para executar utilize o Arquivo App.java para executar o programa, para ver o qu
  Inicialmente crie uma atributo do tipo Lista(List), e instanciei no construtor da classe GerenciadorDePessoas
  Depois crie três metodos
  ### O primeiro método foi CadastrarPessoa
- Foi um metodo sem retorno mas que tinha como função, receber uma objeto do tipo Pessoa e adcionar no atributo da lista de Pessoas.
+ Foi um metodo sem retorno mas que tinha como função, receber um objeto do tipo Pessoa e adicionar na lista de Pessoas.
+ Ao ser instaciada a Classe GerenciadorDePessoas no metodo main, pode-se perceber que os metodos exemplificam o que faz cada um, porém como que é feito, somente dentro da classe que pode ser visto como tudo acontece.

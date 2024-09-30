@@ -65,3 +65,8 @@ Para executar utilize o Arquivo App.java para executar o programa, para ver o qu
  ### O primeiro método foi CadastrarPessoa
  Foi um metodo sem retorno mas que tinha como função, receber um objeto do tipo Pessoa e adicionar na lista de Pessoas.
  Ao ser instaciada a Classe GerenciadorDePessoas no metodo main, pode-se perceber que os metodos exemplificam o que faz cada um, porém como que é feito, somente dentro da classe que pode ser visto como tudo acontece.
+### O seguindo método é o atualizarPessoa
+Nesse metodo também sem retorno a função dele faz com que o primeiro objeto pessoa seja trocado pelo segundo objeto também sem que a classe que executa saiba o como ele faz a troca. 
+
+### O terceiro método e ultimo exibirPessoas
+Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exibe os dados na tela.

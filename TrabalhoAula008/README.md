@@ -39,8 +39,7 @@ Para executar utilize o Arquivo App.java para executar o programa, para ver o qu
         gen.CadastrarPessoa(pessoa2);
   ## Aqui imprimi o resultado parcial do que foi feito até agora.
         gen.exibirPessoa();
-  ## Agora vou repetir o metodo de instacial uma pessoa3
-  // neste caso vou atualizar a pessoa completa, mas também poderia fazer outra implementação para atualizar a pessoa.
+  ## Agora vou repetir o metodo de instacial uma pessoa3 neste caso vou atualizar a pessoa completa, mas também poderia fazer outra implementação para atualizar a pessoa.
         Pessoa pessoa3 = new Pessoa();
         pessoa3.setNome("Valentina M de Araujo");
         pessoa3.setCpf("125.123.345-90");
@@ -49,3 +48,14 @@ Para executar utilize o Arquivo App.java para executar o programa, para ver o qu
         gen.atualizarPessoa(pessoa3, pessoa1); // atualizarPessoa(novosDados, dadosAntigos);
  ## Aqui vou exibir novamente a lista de pessoas para ver que foi totalmente atualizadas
         gen.exibirPessoa();
+
+ ## Sobre a logica do encapsulamento e que foi aplicada
+
+ ## Na Classe Pessoa
+ Criei os atributos nome e cpf como string com acesso privado, também criei o atributo idade como int (inteiro) também com acesso privado, crie os metodos getters e setters para que pudesse ser modificado dentro da instancia.
+ ## Na Classe GerenciadorDePessoas
+ Inicialmente crie uma atributo do tipo Lista(List), e instanciei no construtor da classe GerenciadorDePessoas
+ Depois crie três metodos
+ ### O primeiro método foi CadastrarPessoa
+ Foi um metodo sem retorno mas que tinha como função, receber uma objeto do tipo Pessoa e adcionar no atributo da lista de Pessoas.
+ 

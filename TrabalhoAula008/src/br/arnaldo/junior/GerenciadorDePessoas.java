@@ -18,6 +18,7 @@ public class GerenciadorDePessoas extends Pessoa {
     }
 
     public void atualizarPessoa(Pessoa pessoaAtualizada, Pessoa pessoaDesatualizada){
+        pessoas.
         pessoas.remove(pessoaDesatualizada);
         pessoas.add(pessoaAtualizada);        
     }

@@ -17,9 +17,14 @@ public class GerenciadorDePessoas {
         pessoas.add(p);
     }
 
-    public void atualizarPessoa(Pessoa pessoaAtualizada, Pessoa pessoaDesatualizada){
-        pessoas.remove(pessoaDesatualizada);
-        pessoas.add(pessoaAtualizada);        
+    public void atualizarPessoa(Pessoa p){
+        for (Pessoa pessoa : pessoas) {
+            if(pessoa==p){
+                pessoa.setNome(p.getNome());
+                pessoa.setCpf(p.getCpf());
+                pessoa.setIdade(p.getIdade());
+            }
+        }    
     }
 
     public void exibirPessoa(){

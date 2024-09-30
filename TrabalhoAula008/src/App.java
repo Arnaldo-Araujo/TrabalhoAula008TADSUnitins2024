@@ -16,12 +16,16 @@ public class App {
         pessoa2.setIdade(18);
         gen.CadastrarPessoa(pessoa2);
         gen.exibirPessoa();
-        System.out.println("Agora a troca");
-        Pessoa pessoa3 = new Pessoa();
-        pessoa3.setNome("Valentina M de Araujo");
-        pessoa3.setCpf("125.123.345-90");
-        pessoa3.setIdade(10);
-        gen.atualizarPessoa(pessoa3, pessoa1); // atualizarPessoa(novosDados, dadosAntigos);
+
+        System.out.println("Atualizar nome pessoa 2");
+        pessoa2.setNome("Ezequiel Mendonça de Araujo");
+        gen.atualizarPessoa(pessoa2);
+        gen.exibirPessoa();
+
+        System.out.println("Atualizar cpf pessoa 1");
+        pessoa1.setCpf("191.365.558-22");
+
+        gen.atualizarPessoa(pessoa1);
         gen.exibirPessoa();
     }
 }

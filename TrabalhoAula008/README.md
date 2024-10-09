@@ -70,3 +70,15 @@ Nesse metodo também sem retorno a função dele faz com que o primeiro objeto p
 
 ### O terceiro método e ultimo exibirPessoas
 Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exibe os dados na tela.
+
+
+# Título do Projeto
+
+## Diagrama de Fluxo
+
+```mermaid
+graph TD;
+    A[Início] --> B[Passo 1];
+    B --> C{Decisão};
+    C -->|Sim| D[Fim];
+    C -->|Não| E[Outra Ação];

@@ -1,4 +1,3 @@
-## Cabeçalho:
 ### Aluno: Arnaldo B A Junior; 
 ### Turma: 2024-1 TADS 2º;
 ### Período: 2º Período; e 
@@ -77,8 +76,3 @@ Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exi
 ## Diagrama de Fluxo
 
 ```mermaid
-
-%% source,target,value
-Electricity grid,Over generation / exports,104.453
-Electricity grid,Heating and cooling - homes,113.726
-Electricity grid,H2 conversion,27.14

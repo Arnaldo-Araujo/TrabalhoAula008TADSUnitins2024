@@ -77,7 +77,7 @@ Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exi
 ## Diagrama de Fluxo
 
 ```mermaid
-graph TD;
+graph RL;
     A[Início] --> B[Criar Pessoa];
     B --> C{Pessoa Criada};
     C -->|Sim| D[Fim];

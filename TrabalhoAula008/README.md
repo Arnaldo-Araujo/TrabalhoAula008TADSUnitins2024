@@ -82,3 +82,9 @@ graph RL;
     B --> C{Pessoa Criada};
     C -->|Sim| D[Fim];
     C -->|Não| E[Pagina de Criação];
+sankey-beta
+
+%% source,target,value
+Electricity grid,Over generation / exports,104.453
+Electricity grid,Heating and cooling - homes,113.726
+Electricity grid,H2 conversion,27.14

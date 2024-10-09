@@ -78,7 +78,7 @@ Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exi
 
 ```mermaid
 graph TD;
-    A[Início] --> B[Passo 1];
-    B --> C{Decisão};
+    A[Início] --> B[Criar Pessoa];
+    B --> C{Pessoa Criada};
     C -->|Sim| D[Fim];
-    C -->|Não| E[Outra Ação];
+    C -->|Não| E[Pagina de Criação];

@@ -23,7 +23,8 @@ public class GerenciadorDePessoas {
                 pessoa.setNome(p.getNome());
                 pessoa.setCpf(p.getCpf());
                 pessoa.setIdade(p.getIdade());
-            }
+            }else{
+                System.out.println("Os dados a serem alterados não pertence a nenhuma pessoa já cadastrada")
         }    
     }
 

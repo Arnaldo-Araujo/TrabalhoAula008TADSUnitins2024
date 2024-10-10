@@ -1,4 +1,3 @@
-## Cabeçalho:
 ### Aluno: Arnaldo B A Junior; 
 ### Turma: 2024-1 TADS 2º;
 ### Período: 2º Período; e 
@@ -93,3 +92,15 @@ Nesse metodo também sem retorno a função dele faz com que o primeiro objeto p
 
 ### O terceiro método e ultimo exibirPessoas
 Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exibe os dados na tela.
+
+
+# Título do Projeto
+
+## Diagrama de Fluxo
+
+```mermaid
+graph RL;
+    A[Início] --> B[Criar Pessoa];
+    B --> C{Pessoa Criada};
+    C -->|Sim| D[Fim];
+    C -->|Não| E[Pagina de Criação];

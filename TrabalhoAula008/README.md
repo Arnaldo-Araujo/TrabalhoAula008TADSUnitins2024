@@ -104,3 +104,4 @@ graph RL;
     B --> C{Pessoa Criada};
     C -->|Sim| D[Fim];
     C -->|Não| E[Pagina de Criação];
+    C -->|Error| A;

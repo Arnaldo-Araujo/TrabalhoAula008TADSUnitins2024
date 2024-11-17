@@ -96,7 +96,33 @@ Percorre a lista de pessoas Criadas em CadastrarPessoa, atravez do foreach e exi
 
 # Título do Projeto
 
+
+
 ## Diagrama de Fluxo
+classDiagram
+    class Pessoa {
+        - String nome
+        - String cpf
+        - int idade
+        + getNome(): String
+        + setNome(nome: String): void
+        + getCpf(): String
+        + setCpf(cpf: String): void
+        + getIdade(): int
+        + setIdade(idade: int): void
+    }
+
+    class GerenciadorDePessoas {
+        - List~Pessoa~ pessoas
+        + GerenciadorDePessoas()
+        + CadastrarPessoa(p: Pessoa): void
+        + atualizarPessoa(p: Pessoa): void
+        + exibirPessoa(): void
+    }
+
+    GerenciadorDePessoas --> Pessoa : "1..*"
+
+
 
 ```mermaid
 graph RL;
